@@ -4,13 +4,13 @@
 <div>
   <h2>Exercicios</h2>
   <ul>
-  <li> <a href="https://cvargas352.github.io/Estudos/Html-Css/Exercicios/Ex 001/index.html" target="_blank"> Exercicio 001 </a>
+  <li> <a href="https://cvargas352.github.io/Estudos/Html-Css/Exercicios/Ex 001/index.html" target="_blank"> Primeiro Hello </a>
   <ul/>
 <div/>
 <div>
   <h2>Desafios</h2>
   <ul>
-  <li> <a href="https://cvargas352.github.io/Estudos/Html-Css/Desafios/Desafio%20010/index.html" target="_blank"> Desafio 010 </a>
+  <li> <a href="https://cvargas352.github.io/Estudos/Html-Css/Desafios/Desafio%20010/index.html" target="_blank"> Site Androind </a>
   <ul/>
 <div/>
 </body>

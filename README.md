@@ -4,7 +4,7 @@
 <div>
   <h2>Exercicios</h2>
   <ul>
-  <li> <a href="https://cvargas352.github.io/Estudos/Html-Css/Exercicios/Ex 001/index.html" target="_blank"> Primeiro Hello </a>
+  <li> <a href="https://cvargas352.github.io/Estudos/Html-Css/Exercicios/Ex 001/index.html" target="_blank"> Meu primeiro exercicio </a>
   <ul/>
 <div/>
 <div>

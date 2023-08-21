@@ -1,8 +1,8 @@
 # Estudos
 <style>
   body {
-  background-color: aquamarine;
-     }
+    background-color: green;
+  }
 </style>
 <body>
 <h1>Pasta de exercicios</h1>

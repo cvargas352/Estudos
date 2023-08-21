@@ -1,6 +1,6 @@
 # Estudos
 Pasta de exercicios
-#Aqui estão salvo os exercicios que eu estou aprendendo com o site #cursoemvideo.
+<p>Aqui estão salvo os exercicios que eu estou aprendendo com o site #cursoemvideo.<p/>
 <div>
   <ul>
     <li> 1 

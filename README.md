@@ -1,10 +1,4 @@
 # Estudos
-<style>
-  body {
-    background-color: green;
-  }
-</style>
-<body>
 <h1>Pasta de exercicios</h1>
 <p>Aqui estão salvo os exercicios que eu estou aprendendo com o site #cursoemvideo.</p>
 <div>

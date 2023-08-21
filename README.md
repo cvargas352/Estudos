@@ -3,10 +3,10 @@ Pasta de exercicios
 #Aqui estão salvo os exercicios que eu estou aprendendo com o site #cursoemvideo.
 <div>
   <ul>
-    <li> 1 <li/>
-    <li> 2 <li/>
-    <li> 3 <li/>
-    <li> 4 <li/>
-    <li> 5 <li/>
+    <li> 1 
+    <li> 2
+    <li> 3 
+    <li> 4 
+    <li> 5 
   <ul/>
 <div/>

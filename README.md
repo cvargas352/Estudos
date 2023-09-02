@@ -1,6 +1,6 @@
 # Estudos
 <h1>O que eu aprendi com o CURSOEM VIDEO</h1>
-<p>Aqui estão salvo os exercicios que eu estou aprendendo com o site #cursoemvideo.</p>
+<p>Aqui estão salvo os exercicios que eu estou aprendendo com o <a href="www.cursoemvidio.com.br" target="_blank"> #cursoemvideo< /a>.</p>
 <div>
   <h2>Exercicios</h2>
     <ul>

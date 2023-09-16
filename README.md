@@ -4,8 +4,8 @@
 
 <h1>Exercicios</h1>
 <ul>
-<li> <a href="https://cvargas352.github.io/Estudos/Html-Css/Exercicios/Ex 001/index.html" target="_blank"> Meu primeiro exercicio </a>
-<li> <a href="https://cvargas352.github.io/Estudos/Html-Css/Exercicios/Ex 002/index.html" target="_blank"> 2</a>
+<li> <a href="https://cvargas352.github.io/Estudos/Html-Css/Exercicios/Ex 001/index.html" target="_blank"> 1 </a>
+<li> <a href="https://cvargas352.github.io/Estudos/Html-Css/Exercicios/Ex 002/index.html" target="_blank"> 2 </a>
 <li> <a href="https://cvargas352.github.io/Estudos/Html-Css/Exercicios/Ex 003/index.html" target="_blank"> 3 </a>
 <li> <a href="https://cvargas352.github.io/Estudos/Html-Css/Exercicios/Ex 004/index.html" target="_blank"> 4 </a>
 <li> <a href="https://cvargas352.github.io/Estudos/Html-Css/Exercicios/Ex 005/index.html" target="_blank"> 5 </a>

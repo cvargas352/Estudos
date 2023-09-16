@@ -1,8 +1,8 @@
 # Estudos
-<h1>O que eu aprendi com o CURSOEMVIDEO</h1>
-<p>Aqui estão salvo os exercicios que eu estou aprendendo com o <a href="www.cursoemvidio.com.br" target="_blank">#cursoemvideo</a>.</p>
-
-<h1>Exercicios</h1>
+<h1>O que eu aprendi com o CURSOEM VIDEO</h1>
+<p>Aqui estão salvo os exercicios que eu estou aprendendo com o <a href="www.cursoemvidio.com.br" target="_blank"> #cursoemvideo</a>.</p>
+<div>
+<h2>Exercicios</h2>
 <ul>
 <li> <a href="https://cvargas352.github.io/Estudos/Html-Css/Exercicios/Ex 001/index.html" target="_blank"> 1 </a>
 <li> <a href="https://cvargas352.github.io/Estudos/Html-Css/Exercicios/Ex 002/index.html" target="_blank"> 2 </a>
@@ -26,9 +26,8 @@
 <li> <a href="https://cvargas352.github.io/Estudos/Html-Css/Exercicios/Ex 020/index.html" target="_blank"> 20 </a>
 <li> <a href="https://cvargas352.github.io/Estudos/Html-Css/Exercicios/Ex 021/index.html" target="_blank"> 21 </a>
 <li> <a href="https://cvargas352.github.io/Estudos/Html-Css/Exercicios/Ex 022/index.html" target="_blank"> 22 </a>
-<ul/>
-  
-<h1>Desafios</h1>
+
+<h2>Desafios</h2>
 <ul>
 <li> <a href="https://cvargas352.github.io/Estudos/Html-Css/Desafios/Desafio%20005/index.html" target="_blank"> Minhas Redes Sociais</a>
 <li> <a href="https://cvargas352.github.io/Estudos/Html-Css/Desafios/Desafio%20006/index.html" target="_blank"> Tag HTML</a>

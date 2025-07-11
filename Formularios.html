@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        Body 
+        {
+            background-color: rgb(190, 239, 255);
+        }
+        form
+        {
+            text-align: center;
+            padding:5%;
+            
+        }
+        #cadastro
+        {
+            position: absolute;
+            top: 100px;
+            left: 10%;
+            background-color: #ffffff4a;
+            width: 25%;
+            border-radius: 2%;
+            
+        }
+        input
+        {
+            border-radius: 10px;
+            background-color: rgb(190, 239, 255);
+            padding: 8px;
+            border: 3px solid #9b9b9b17;
+        }
+        #Tabela1 
+        {
+            position: absolute;
+            top: 100px;
+            left: 50%;
+            background-color: #ffffff59;
+            border-collapse: collapse; 
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div id="cadastro">
+    <form action="formulario_preenchido.html" method="dialog">
+    
+      <p><label for="nome">Nome:</label></p>
+      <input type="text" id="nome" name="nome"><br>
+    
+      <p><label for="telefone">Telefone:</label></p>
+      <input type="tel"type=tel id="tel" name="tel"><br>
+    
+      <p><label for="email">Email:</label></p>
+      <input type="email" id="email" name="email"><br>
+    
+      <p><label for="senha">Senha:</label></p>
+      <input type="password"id="senha" name="senha"><br>
+    
+      <br><button type="submit">Enviar</button><br>
+     </form>
+</div>
+
+<table border="1" id="Tabela1">
+  <thead>
+    <tr>
+      <th>Tipo ( type )</th>
+      <th>O que faz</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>text</td><td>Campo de texto simples</td></tr>
+    <tr><td>password</td><td>Campo de senha (oculta os caracteres)</td></tr>
+    <tr><td> email </td><td>Valida entrada de e-mail</td></tr>
+    <tr><td> number </td><td>Aceita apenas números</td></tr>
+    <tr><td> tel </td><td>Campo para telefone</td></tr>
+    <tr><td> url </td><td>Valida URLs</td></tr>
+    <tr><td> date </td><td>Seletor de data</td></tr>
+    <tr><td> time </td><td>Seletor de hora</td></tr>
+    <tr><td> datetime-local </td><td>Data e hora (sem fuso horário)</td></tr>
+    <tr><td> month </td><td>Seletor de mês e ano</td></tr>
+    <tr><td> week </td><td>Seletor de semana e ano</td></tr>
+    <tr><td> file </td><td>Upload de arquivos</td></tr>
+    <tr><td> checkbox </td><td>Caixa de seleção</td></tr>
+    <tr><td> radio </td><td>Botões de opção única</td></tr>
+    <tr><td> range </td><td>Slider de valor numérico</td></tr>
+    <tr><td> color </td><td>Seletor de cor</td></tr>
+    <tr><td> hidden </td><td>Campo invisível</td></tr>
+    <tr><td> submit </td><td>Botão de envio do formulário</td></tr>
+    <tr><td> reset </td><td>Botão que limpa todos os campos</td></tr>
+    <tr><td> button </td><td>Botão genérico (precisa de JavaScript para funcionar)</td></tr>
+    <tr><td> search </td><td>Campo otimizado para buscas</td></tr>
+  </tbody>
+</table>
+</body>
+</html>

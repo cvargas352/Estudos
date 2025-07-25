@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Estação de Estudo Ideal</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 40px;
+        }
+
+        form {
+            background-color: #fff;
+            max-width: 600px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        div {
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input[type="radio"] {
+            display: none;
+        }
+
+        label img {
+            border: 3px solid transparent;
+            border-radius: 10px;
+            transition: transform 0.2s, border-color 0.2s;
+            cursor: pointer;
+            max-width: 100px;
+            margin-right: 10px;
+        }
+
+        input[type="radio"]:checked + label img {
+            border-color: #007bff;
+            transform: scale(1.05);
+        }
+
+        input[type="range"],
+        input[type="number"],
+        input[type="time"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin-top: 5px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>Minha Estação de Estudo Ideal</h1>
+
+        <div class="mesa">
+            <p>Selecione um tipo de mesa desejada:</p>
+            <input type="radio" id="mesa1" name="mesa" value="mesa1">
+            <label for="mesa1"><img src="https://bright.com.br/media/djcatalog2/images/item/2/mesa-gamer-nuker.1_f.png" alt="Mesa 1"></label>
+
+            <input type="radio" id="mesa2" name="mesa" value="mesa2">
+            <label for="mesa2"><img src="https://cdn.mkplace.com.br/image/upload/v1716358690/seller-images/nr9kh4hbky1te1g6q4xf.png" alt="Mesa 2"></label>
+
+            <input type="radio" id="mesa3" name="mesa" value="mesa3">
+            <label for="mesa3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgHaqa-AyHMrNTsLMJooqco15KdzsNiGeJbA&s" alt="Mesa 3"></label>
+        </div>
+
+        <div class="perifericos">
+            <p>Escolha periféricos preferidos:</p>
+            <input type="radio" id="mouse" name="perifericos" value="mouse">
+            <label for="mouse"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqdEgfr1OdHBKfHnlq-JPJxJJsuvZIDlOkPA&s" alt="Mouse"></label>
+
+            <input type="radio" id="fone" name="perifericos" value="fone">
+            <label for="fone"><img src="https://cdn.awsli.com.br/2500x2500/2539/2539199/produto/224965380/hp348-rslr68xc5w.png" alt="Fone"></label>
+
+            <input type="radio" id="teclado" name="perifericos" value="teclado">
+            <label for="teclado"><img src="https://www.adrenaline.com.br/wp-content/uploads/2023/09/Agon-by-AOC-lanca-nova-linha-de-perifericos-gamer-02-900x900.png" alt="Teclado"></label>
+        </div>
+
+        <div class="conforto">
+            <label for="conforto">Nível de conforto desejado (0 a 10)</label>
+            <input type="range" id="conforto" name="conforto" min="0" max="10">
+        </div>
+
+        <div class="horas">
+            <label for="idade">Tempo médio de estudo por dia (em horas)</label>
+            <input type="number" id="idade" name="idade" min="0" max="24">
+        </div>
+
+        <div class="Horario">
+            <label for="horario">Melhor horário de concentração</label><br>
+            <input type="time" id="horario" name="horario">
+        </div>
+
+        <button type="submit">Salvar</button>
+    </form>
+</body>
+</html>

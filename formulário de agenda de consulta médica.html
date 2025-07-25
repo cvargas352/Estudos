@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar consulta médica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #a8d8fd7c;
+        }
+
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin:25px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        div {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: flexbox;
+            margin-bottom: 50px;
+        }
+
+        input[type="text"], input[type="datetime-local"],input[type="month"],input[type="number"]{
+            width: 95%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-top: 5px;
+        }
+        input[type="range"] {
+            accent-color: #0077cc;
+            width: 95%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+       input[type="radio"] {
+            display: inline-block;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0077cc;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005fa3;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>Agendar Consulta Médica</h1>
+
+        <div>
+            <label for="data-consulta">Data/hora da consulta</label><br>
+            <input type="datetime-local" id="data-consulta" name="data-consulta" required>
+        </div>
+
+        <div>
+            <p>Selecione a especialidade desejada:</p>
+            <input type="radio" id="clinica" name="especialidade" value="Clínica Geral">
+            <label for="clinica">Clínica Geral</label>
+
+            <input type="radio" id="odontologia" name="especialidade" value="Odontologia">
+            <label for="odontologia">Odontologia</label>
+
+            <input type="radio" id="psicologia" name="especialidade" value="Psicologia">
+            <label for="psicologia">Psicologia</label>
+        </div>
+
+        <div>
+            <label for="mes-nascimento">Mês de nascimento</label>
+            <input type="month" id="mes-nascimento" name="mes-nascimento" required>
+        </div>
+
+        <div>
+            <label for="idade">Idade</label>
+            <input type="number" id="idade" name="idade" min="0" required>
+        </div>
+
+        <div>
+            <label for="espera">Tempo de espera tolerável (minutos)</label>
+            <input type="range" id="espera" name="espera" min="0" max="120">
+        </div>
+
+        <div>
+            <p>Necessidades especiais:</p>
+            <input type="checkbox" id="acessibilidade" name="necessidades" value="Acessibilidade">
+            <label for="acessibilidade">Acessibilidade</label>
+
+            <input type="checkbox" id="libras" name="necessidades" value="Tradutor de Libras">
+            <label for="libras">Tradutor de Libras</label>
+
+            <input type="checkbox" id="acompanhante" name="necessidades" value="Acompanhante">
+            <label for="acompanhante">Acompanhante</label>
+
+            <input type="checkbox" id="outro" name="necessidades" value="Outro">
+            <label for="outro">Outro</label>
+        </div>
+
+        <div class="urgencia">
+            <p>Grau de urgência:</p>
+            <input type="radio" id="urgencia-baixa" name="urgencia" value="Baixo">
+            <label for="urgencia-baixa">Baixo</label>
+
+            <input type="radio" id="urgencia-media" name="urgencia" value="Médio">
+            <label for="urgencia-media">Médio</label>
+
+            <input type="radio" id="urgencia-alta" name="urgencia" value="Alto">
+            <label for="urgencia-alta">Alto</label>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

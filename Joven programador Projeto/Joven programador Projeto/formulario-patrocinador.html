@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Patrocinador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <img src="https://www.jovemprogramador.com.br/images/jovemprogramador_logo.png" alt="Logo Jovem programdor">
+    <nav>
+      <a href="saiba-mais.html">Sobre o Curso</a>
+      <a href="disciplinas.html">Disciplinas</a>
+      <a href="formulario-aluno.html">Cadastro de Alunos</a>
+      <a href="formulario-patrocinador.html">Cadastro de Fornecedores</a>
+    </nav>
+  </header>
+  <h1>Cadastro de Patrocinador</h1>
+  <form>
+    <div class="campo">
+      <label>Nome da Empresa:</label>
+      <input type="text" required>
+    </div>
+
+    <div class="campo">
+      <label>Nome do Responsável:</label>
+      <input type="text" required>
+    </div>
+
+    <div class="campo">
+      <label>Email:</label>
+      <input type="email" required>
+    </div>
+
+    <div class="campo">
+      <label>Categoria de apoio:</label>
+      <label><input type="checkbox">Financeiro</label>
+      <label><input type="checkbox">Equipamentos</label>
+      <label><input type="checkbox">Bolsas</label>
+      <label><input type="checkbox">Divulgação</label>
+    </div>
+
+    <div class="campo">
+      <label>Grau de interesse:</label>
+      <input type="range" min="0" max="10">
+    </div>
+
+    <div class="campo">
+      <label>Melhor horário para contato:</label>
+      <input type="datetime-local">
+    </div>
+
+    <button type="submit">Quero patrocinar</button>
+  </form>
+</body>
+</html>

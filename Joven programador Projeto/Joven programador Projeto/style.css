@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://img.freepik.com/vetores-premium/padrao-de-livro-vetorial_978047-227.jpg?w=1380);
+    padding: 20px;
+    color: #5e636e;
+    margin: auto;
+    text-align: center;
+    max-width: 800px;
+    }
+
+h1, h2 {
+    color: #630dc9;
+}
+
+p, ul, ol, label {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #5e636e;
+}
+img {
+    padding: 10px;
+}
+.img1 {
+    width: 100px;
+}
+.img2 {
+    width: 500px;
+}
+a {
+    color: #f346ab;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 0;
+    padding: 2%;
+    border-color: 0 0 0 1 #5e636e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    background-color: #ffffff;
+}
+a:hover {
+  color: #630dc9;
+  text-decoration: underline;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.campo {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: fit-content;
+}
+
+button {
+  background-color: #630dc9;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f346ab;
+}
+section {
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Aluno</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <img src="https://www.jovemprogramador.com.br/images/jovemprogramador_logo.png" alt="Logo Jovem programdor">
+    <nav>
+      <a href="saiba-mais.html">Sobre o Curso</a>
+      <a href="disciplinas.html">Disciplinas</a>
+      <a href="formulario-aluno.html">Cadastro de Alunos</a>
+      <a href="formulario-patrocinador.html">Cadastro de Fornecedores</a>
+    </nav>
+  </header>
+  <h1>Cadastro de Aluno</h1>
+  <form>
+    <div class="campo">
+      <label>Nome Completo:</label>
+      <input type="text" required>
+    </div>
+
+    <div class="campo">
+      <label>Idade:</label>
+      <input type="number" required>
+    </div>
+
+    <div class="campo">
+      <label>Email:</label>
+      <input type="email" required>
+    </div>
+
+    <div class="campo">
+      <label>Cidade:</label>
+      <input type="text" required>
+    </div>
+
+    <div class="campo">
+      <label>Turno de interesse:</label>
+      <label><input type="radio" name="turno">Manhã</label>
+      <label><input type="radio" name="turno">Tarde</label>
+      <label><input type="radio" name="turno">Noite</label>
+    </div>
+
+    <div class="campo">
+      <label>Modalidade desejada:</label>
+      <label><input type="checkbox">Presencial</label>
+      <label><input type="checkbox">Online</label>
+    </div>
+
+    <div class="campo">
+      <label>Comentários:</label>
+      <textarea></textarea>
+    </div>
+
+    <button type="submit">Quero me inscrever</button>
+  </form>
+</body>
+</html>
